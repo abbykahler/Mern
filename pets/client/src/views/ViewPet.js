@@ -16,7 +16,6 @@ const ViewPet = (props) => {
             .catch((err) => {console.log(err);})
     })
 
-
     return (
         <div>
             <h1>Pet Shelter</h1>
@@ -46,7 +45,7 @@ const ViewPet = (props) => {
                             <h3>Skills:</h3>
                         </td>
                         <td>
-                            <h3>{pet.skill1} <br />
+                            <h3>{pet.skill1} <br/>
                                 {pet.skill2}<br/>
                                 {pet.skill3}</h3>
                         </td>
