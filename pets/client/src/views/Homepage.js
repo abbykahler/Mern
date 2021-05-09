@@ -1,16 +1,10 @@
 import React from "react";
 import { Link } from "@reach/router";
 import PetsTable from "../components/PetsTable";
-// import axios from "axios";
 
 const Homepage = (props) => {
     const { pets, setPets } = props;
 
-    // useEffect(() => {
-    //     axios.get("http://localhost:8000/api/pets")
-    //         .then((res) => {})
-    //         .catch((err) => { console.log(err); })
-    // }, [setPets]);
 
     return (
         <div>
