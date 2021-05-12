@@ -30,5 +30,4 @@ const EditPet = (props) => {
         </div>
     )
 }
-
 export default EditPet;

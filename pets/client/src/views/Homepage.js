@@ -5,7 +5,6 @@ import PetsTable from "../components/PetsTable";
 const Homepage = (props) => {
     const { pets, setPets } = props;
 
-
     return (
         <div>
             <h1>Pet Shelter</h1>
@@ -15,5 +14,4 @@ const Homepage = (props) => {
         </div>
     )
 };
-
 export default Homepage;
