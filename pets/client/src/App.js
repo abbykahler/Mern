@@ -7,7 +7,6 @@ import AddPet from './views/AddPet';
 import ViewPet from './views/ViewPet';
 import EditPet from './views/EditPet';
 
-
 function App() {
   const [pets, setPets] = useState([]);
 
